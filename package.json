@@ -1,0 +1,36 @@
+{
+  "name": "cnn-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development node ./bin/www"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "body-parser": "~1.17.1",
+    "case-sensitive-paths-webpack-plugin": "^2.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "eslint": "^3.19.0",
+    "eslint-config-react-app": "^0.6.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-flowtype": "2.21.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "~4.15.2",
+    "html-webpack-plugin": "^2.28.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "precss": "^1.4.0",
+    "react-dev-tools": "0.0.1",
+    "react-dev-utils": "^3.0.0",
+    "serve-favicon": "~2.4.2",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
