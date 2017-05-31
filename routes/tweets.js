@@ -45,7 +45,7 @@ const authenticate = () => {
 
 const fetchTweets = token => {
   return rp({
-    url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=cnnbrk',
+    url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=cnnbrk&count=10',
     headers: {
       Authorization: 'Bearer ' + token
     },
