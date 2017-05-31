@@ -53,7 +53,7 @@ module.exports = {
   ],
   output: {
     // Next line is not used in dev but WebpackDevServer crashes without it:
-    path: '/'
+    path: '/',
     // Add /* filename */ comments to generated require()s in the output.
     // pathinfo: true,
     // This does not produce a real file. It's just the virtual path that is
@@ -61,7 +61,7 @@ module.exports = {
     // containing code from all our entry points, and the Webpack runtime.
     // filename: 'bundle.js',
     // // This is the URL that app is served from. We use "/" in development.
-    // publicPath: 'http://localhost:3000/'
+    publicPath: 'http://localhost:30000/cnnbrk-tweets'
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
