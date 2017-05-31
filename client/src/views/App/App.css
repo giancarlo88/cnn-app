@@ -1,0 +1,13 @@
+.tweet-list {
+    max-width: 600px;
+    list-style-type: none;
+}
+
+@media (min-width: 600px) {
+    .tweet-list {
+        column-count: 2;
+        height: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}

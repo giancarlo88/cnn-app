@@ -1,0 +1,29 @@
+.tweet {
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.2);
+    border-radius: 2px;
+    border: .5px solid #EEEEEE;
+    cursor: pointer;
+    margin-top: 0;
+    padding: 5px 10px;
+    transition: background-color .5s ease-out;
+}
+
+.tweet a,
+.tweet a:visited {
+    text-decoration: none;
+    color: #121212;
+}
+
+.tweet .tweet__text,
+.tweet .tweet__user {
+    font-size: 14px;
+}
+
+.tweet .tweet__user {
+    color: #09748f;
+}
+
+.tweet:hover {
+    background-color: #EFEFEF;
+}
