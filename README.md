@@ -11,7 +11,9 @@ $ cd client && npm install
 
 This will install both the client-side and server-side dependencies. 
 
-2. Run the build locally. The simplest way to do this is using webpack-dev-middleware. Simply run `npm start` in the cnn-app folder and the app will be accessible by navigating to [http://localhost:30000/cnnbrk-tweets](http://localhost:30000/cnnbrk-tweets)
+2. Add an apiConstants.js file in the config folder that includes your client API key and API client secret from Twitter. There is an apiConstants.schema.js that functions as a model for this file. 
+
+3. Run the build locally. The simplest way to do this is using webpack-dev-middleware. Simply run `npm start` in the cnn-app folder and the app will be accessible by navigating to [http://localhost:30000/cnnbrk-tweets](http://localhost:30000/cnnbrk-tweets)
 
 ### Running using a production build
 

@@ -17,8 +17,7 @@ router.get('/', (req, res, next) => {
       return res.send(tweets)
     })
     .catch(err => {
-      console.log(err)
-      res.status(400).send('Error')
+      res.status(400).send(err)
     })
 })
 
