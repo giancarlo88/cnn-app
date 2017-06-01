@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Tweet from '../../components/Tweet/Tweet'
-import axios from 'axios'
+
+import { getTweets } from '../../services/services'
 
 import './App.css'
 
@@ -15,8 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios
-      .get('/api/tweets')
+    getTweets()
       .then(data =>
         this.setState({
           isLoaded: true,
